@@ -1,27 +1,122 @@
-# TodoListApp
+<h1 align="center"> TodoList ✔️ </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+<p align="center"> 🔗 <a href="#">Acesse o projeto online</a> </p> 
+<p align="center"> <a href="#-sobre-o-projeto">Sobre</a> 
+• <a href="#-funcionalidades">Funcionalidades</a> 
+• <a href="#-layout">Layout</a> 
+• <a href="#-como-executar-o-projeto">Como executar</a> 
+• <a href="#-tecnologias">Tecnologias</a> 
+• <a href="#-autor">Autor</a> 
+• <a href="#user-content--licença">Licença</a> </p>
 
-## Development server
+<div align="center"> 
+  <img src="docs/TodoListApp.gif" alt="Interface TodoList" width="600"> 
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Sobre o projeto
 
-## Code scaffolding
+O _TodoList_ é um aplicativo web de lista de tarefas simples e intuitivo, onde o usuário pode adicionar, editar e excluir tarefas do dia a dia. Ele foi desenvolvido com _Angular 17_ e serviu como prática para a criação de páginas interativas com manipulação dinâmica de dados.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+A aplicação utiliza _JSON Server_ como backend fake, permitindo simular requisições HTTP (GET, POST, PUT, DELETE) para interações completas com uma _API REST_. Durante o desenvolvimento, foquei na construção de componentes reutilizáveis, organização modular do projeto e boas práticas com Angular.
 
-## Build
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚙️ Funcionalidades
 
-## Running unit tests
+- ✅ Adição de novas tarefas
+- ✅ Edição de tarefas existentes
+- ✅ Exclusão de tarefas
+- ✅ Interface limpa e responsiva
+- ✅ Comunicação com API fake usando JSON Server
+- ✅ Boas práticas com Angular, RxJS e TypeScript
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<br>
 
-## Running end-to-end tests
+## 🚀 Como executar o projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Pré-requisitos
 
-## Further help
+Antes de começar, você vai precisar ter instalado em sua máquina:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
+- [JSON Server](https://github.com/typicode/json-server)
+
+<br>
+
+### 📁 Clonando e executando o frontend (Angular)
+
+```bash
+# Clone o repositório
+git clone https://github.com/MayconDoCarmo/TodoListApp.git
+
+# Entre na pasta do projeto
+cd TodoListApp
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+ng serve
+```
+
+<br>
+
+### 🧩 Executando o fake backend (JSON SERVER)
+
+1. Coloque os arquivos PHP (API) em uma pasta no seu servidor local (ex: `htdocs/crud-users-api/`)
+2. Certifique-se de que o banco de dados `crud_users` esteja criado e populado com a tabela:
+
+```bash
+# Rode o JSON Server apontando para o db.json
+npx json-server --watch db.json
+```
+
+<br>
+
+## 🛠 Tecnologias
+
+#### **Frontend** (Angular 17)
+
+- Angular 17
+- Angular CLI
+- TypeScript
+- Bootstrap 5
+- HTML5 / CSS3
+
+#### **Backend Simulado**
+
+- JSON Server
+- HTTP REST API
+
+<br>
+
+## 🤝 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com suas alterações: `git checkout -b minha-feature`
+3. Commit suas alterações: `git commit -m 'feat: Minha nova feature'`
+4. Faça push para a sua branch: `git push origin minha-feature`
+
+## 🦸 Autor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/137451720?v=4" width="114px;" alt="Maycon Do Carmo foto de perfil"/><br>
+        <sub>
+          <b>Maycon Do Carmo</b>
+        </sub>
+      </a>
+    </td>
+
+</table>
+
+[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:maycongusmao.up@gmail.com)](mailto:maycongusmao.up@gmail.com)&nbsp;&nbsp;[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maycon-do-carmo-9105b828b/)](https://www.linkedin.com/in/maycon-do-carmo-9105b828b/)
+
+## 📝 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE).
+
+Feito com 💻 por **Maycon Do Carmo**
