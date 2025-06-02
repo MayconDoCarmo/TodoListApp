@@ -1,4 +1,4 @@
-<h1 align="center"> TodoList ✔️ </h1>
+<h1 align="center">  TodoList 📝</h1>
 
 <p align="center"> 🔗 <a href="#">Acesse o projeto online</a> </p> 
 <p align="center"> <a href="#-sobre-o-projeto">Sobre</a> 
@@ -15,9 +15,9 @@
 
 ## 📌 Sobre o projeto
 
-O _TodoList_ é um aplicativo web de lista de tarefas simples e intuitivo, onde o usuário pode adicionar, editar e excluir tarefas do dia a dia. Ele foi desenvolvido com _Angular 17_ e serviu como prática para a criação de páginas interativas com manipulação dinâmica de dados.
+O **TodoList** é um aplicativo web de lista de tarefas simples e intuitivo, onde o usuário pode adicionar, editar e excluir tarefas do dia a dia. Ele foi desenvolvido com **Angular 17** e serviu como prática para a criação de páginas interativas com manipulação dinâmica de dados.
 
-A aplicação utiliza _JSON Server_ como backend fake, permitindo simular requisições HTTP (GET, POST, PUT, DELETE) para interações completas com uma _API REST_. Durante o desenvolvimento, foquei na construção de componentes reutilizáveis, organização modular do projeto e boas práticas com Angular.
+A aplicação utiliza **JSON Server** como backend fake, permitindo simular requisições HTTP (GET, POST, PUT, DELETE) para interações completas com uma **API REST**. Durante o desenvolvimento, foquei na construção de componentes reutilizáveis, organização modular do projeto e boas práticas com **Angular**.
 
 <br>
 
