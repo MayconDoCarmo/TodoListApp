@@ -1,6 +1,6 @@
 <h1 align="center">  TodoList 📝</h1>
 
-<p align="center"> 🔗 <a href="#">Acesse o projeto online</a> </p> 
+<p align="center"> 🔗 <a href="https://todo-list-app-pearl-pi-86.vercel.app/">Acesse o projeto online</a> </p> 
 <p align="center"> <a href="#-sobre-o-projeto">Sobre</a> 
 • <a href="#-funcionalidades">Funcionalidades</a> 
 • <a href="#-layout">Layout</a> 
